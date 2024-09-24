@@ -3,7 +3,6 @@
 import "@mantine/core/styles.css";
 
 import { ColorSchemeScript, createTheme, MantineProvider } from "@mantine/core";
-import Link from "next/link";
 
 const theme = createTheme({
   fontFamily: "Mulish",
@@ -12,7 +11,7 @@ const theme = createTheme({
 });
 
 export const metadata = {
-  title: "My Mantine app",
+  title: "Trafalgar",
   description: "I have followed setup instructions carefully",
 };
 
