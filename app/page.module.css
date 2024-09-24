@@ -1,0 +1,83 @@
+.headbtn {
+  font-size: 18;
+  font-weight: 500;
+  color: #7d7987;
+}
+.headbtn:hover {
+  color: black;
+  transition: 0.4s;
+}
+.btn1 {
+  font-size: 18;
+  font-weight: 500;
+  color: #458ff6;
+  background-color: white;
+  border-radius: 2rem;
+  height: auto;
+  width: 10rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-color: #458ff6;
+  border-style: solid;
+  border-width: 1px;
+}
+.btn1:hover {
+  background-color: rgba(45, 205, 220, 0.233);
+  color: #458ff6;
+  border-color: #458ff6;
+  border-style: solid;
+  border-width: 1px;
+  transition: 0.4s;
+}
+.dashbtn {
+  font-size: 18;
+  font-weight: 500;
+  color: white;
+  background-color: "#458FF6";
+  border-radius: 2rem;
+  height: auto;
+  width: 10rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.dashbtn:hover {
+  background-color: rgba(45, 205, 220, 0.233);
+  color: #458ff6;
+  border-color: #458ff6;
+  border-style: solid;
+  border-width: 1px;
+  transition: 0.4s;
+}
+.serviceCard {
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 2rem;
+  padding: 3rem;
+  padding-top: 1rem;
+}
+.serviceCard:hover {
+  transform: translate3D(0, -1px, 0) scale(1.03);
+  transition: 0.4s;
+}
+.customerCard {
+  width: 100%;
+  background-color: #5a98f2;
+  border-radius: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.customerCard:hover {
+  transform: translate3D(0, -1px, 0) scale(1.03);
+  box-shadow: 0 2px 20px 0 rgba(90, 152, 242, 1);
+  transition: 0.4s;
+}
+.articlesCard {
+  width: 32%;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 1.4rem;
+  padding: 1rem;
+  padding-right: 4rem;
+}
+.articlesCard:hover {
+  transform: translate3D(0, -1px, 0) scale(1.03);
+  transition: 0.4s;
+}
