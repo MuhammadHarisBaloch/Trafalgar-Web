@@ -3,6 +3,7 @@
 import "@mantine/core/styles.css";
 
 import { ColorSchemeScript, createTheme, MantineProvider } from "@mantine/core";
+import Logo from "@/constants/Logo";
 
 const theme = createTheme({
   fontFamily: "Mulish",
@@ -23,6 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link rel="icon" href={Logo.AppLogo} type="image/app-icon" />
         <ColorSchemeScript />
       </head>
       <body>
